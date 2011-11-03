@@ -1,3 +1,9 @@
+# revision 17353
+# category Package
+# catalog-ctan /macros/latex/contrib/captdef
+# catalog-date 2010-03-09 12:54:42 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-captdef
 Version:	20100309
 Release:	1
@@ -43,6 +49,7 @@ or table environments.
 %doc %{_texmfdistdir}/doc/latex/captdef/captdef.pdf
 %doc %{_texmfdistdir}/doc/latex/captdef/captdef.tex
 %doc %{_texmfdistdir}/doc/latex/captdef/miscdoc.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ or table environments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
