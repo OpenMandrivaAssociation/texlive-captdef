@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-captdef
 Version:	20100309
-Release:	4
+Release:	5
 Summary:	Declare free-standing \caption commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/captdef
