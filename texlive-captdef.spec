@@ -3,7 +3,7 @@ Version:	17353
 Release:	2
 Summary:	Declare free-standing \caption commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/captdef
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/captdef
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/captdef.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/captdef.doc.r%{version}.tar.xz
